@@ -67,6 +67,7 @@
 @media screen and (max-width:600px) {
     .resume-container{
         padding-top: 30px;
+        padding-bottom: 0px;
     }
     .resume-buttons button{
         height: 55px;

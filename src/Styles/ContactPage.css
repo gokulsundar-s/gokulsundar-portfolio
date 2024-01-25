@@ -164,6 +164,9 @@
         font-size: 12px;
         padding-top: 20px;
     }
+    .contact-container h1{
+        padding-top: 0px;
+    }
 }
 
 @media screen and (max-width:450px) {
