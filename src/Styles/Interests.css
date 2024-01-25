@@ -1,0 +1,35 @@
+.interest-header{
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-family: "Archivo";
+    color: #1B9FFE;
+    text-align: center;
+    font-weight: 700;
+}
+
+.interest-block{
+    text-align: center;
+    padding: 0% 2%;
+}
+
+.sub-heading{
+    font-family: "roboto";
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.sub-content{
+    font-family: "roboto";
+    font-size: 18px;
+    padding-bottom: 30px;
+    line-height: 35px;
+}
+
+@media screen and (max-width:600px) {
+    .sub-heading{
+        font-size: 17px;
+    }
+    .sub-content{
+        font-size: 15px;
+    }
+}

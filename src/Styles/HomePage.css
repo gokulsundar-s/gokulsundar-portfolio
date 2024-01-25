@@ -1,0 +1,323 @@
+.home-page{
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 80px;
+}
+
+.hello{
+    text-align: center;
+    padding: 20px 70px;
+    letter-spacing: 5px;
+    padding-top: 10px;
+}
+
+.hello h1{
+    font-weight: 800px;
+    font-size: 50px;
+    color: rgb(27,159,254); 
+    transition: 0.4s ease-in-out;
+    font-family: "Archivo Black";
+    letter-spacing: 5px;
+}
+
+.hello p{
+    color: #FFF;
+    font-size: 30px;
+    transition: 0.6s ease-in-out;
+    padding: 10px 0px;
+    font-family: "Archivo";
+}
+
+.hello h1:hover{
+    font-size: 53px;
+}
+
+.hello p:hover{
+    font-size: 33px;
+}
+
+.profile{
+    height: 480px;
+    width: auto;
+    transition: 1s ease-in-out;
+}
+
+.profile:hover{
+    height: 510px;
+    width: auto;
+}
+
+.icon {
+    height: 30px;
+    width: auto;
+    transition: 0.4s ease-in-out;
+    list-style: none;
+    padding-right: 50px;
+}
+
+.icon:hover{
+    height: 35px;
+    width: auto;
+}
+
+.social li{
+    list-style: none;
+    padding-top: 70px;
+}
+
+.social{
+    display: flex;  
+    justify-content: space-evenly; 
+    padding-bottom: 40px;
+}
+
+.buttons{
+    padding-top: 30px;
+    display:flex;
+    justify-content: space-around;
+}
+
+.homebtn{
+    font-size: 15px;
+    font-weight: 800px;
+    border-radius: 60px;
+    padding: 10px 30px;
+    border-color: #1B9FFE;
+    background-color: transparent;
+    border-style: solid;
+    color: #1B9FFE;
+    transition: 0.8s ease-in-out;
+}
+
+.homebtn:hover{
+    background-color:#1B9FFE;
+    color:#FFFFFF;
+    cursor:pointer;
+}
+
+@media screen and (max-width:1350px) {
+    .home-page{
+        display: flex;
+        justify-content: space-around;
+        padding: 125x 50px;
+    }
+    .hello{
+        padding-top: 10px;
+    }
+    .profile{
+        height: 400px;
+        width: auto;
+        padding-top: 20px;
+    }
+    .profile:hover{
+        height:430px;
+        width:auto;
+    }
+    .hello h1{
+        font-weight: 800px;
+        font-size: 37px; 
+        transition: 0.4s ease-in-out;
+    }
+    .hello p{
+        font-size: 25px;
+        transition: 0.4s ease-in-out;
+    }
+    .hello h1:hover{
+        font-size: 40px;
+    }
+    .hello p:hover{
+        font-size: 28px;
+        transition: 0.4s ease-in-out;
+    }
+
+    .social li{
+        padding-top: 50px;
+    }
+}
+
+@media screen and (max-width:1100px) {
+    .home-page{
+        display: flex;
+        flex-direction: column-reverse;
+        padding-top: 0px;
+    }
+    .profile{
+        padding-top: 10px;
+        max-width: 100%;
+        height: auto;
+        padding: 0px 200px;
+    }
+    .profile:hover{
+        height: 100%;
+        width: auto;
+    }
+    .hello h1{
+        font-weight: 800px;
+        font-size: 40px;
+        transition: 0.4s ease-in-out;
+    }
+    .hello p{
+        font-size: 25px;
+        transition: 0.4s ease-in-out;
+    }
+    .hello h1:hover{
+        font-size: 45px;
+    }
+    .hello p:hover{
+        font-size: 30px;
+        transition: 0.4s ease-in-out;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .home-page{
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 0px 0px;
+    }
+    .profile{
+        max-width: 100%;
+        height: auto;
+        padding: 0px 120px;
+    }
+    .hello{
+        text-align: center;
+        font-family: "Roboto";
+        padding: 0px 20px;
+        letter-spacing: 3px;
+        padding-top: 20px;
+    }
+    .hello h1{
+        font-weight: 800px;
+        font-size: 35px;
+        transition: 0.4s ease-in-out;
+        letter-spacing: 3px;
+    }
+    .hello p{
+        font-size: 25px;
+        transition: 0.4s ease-in-out;
+        font-family: "Roboto";
+    }
+    .hello h1:hover{
+        font-size: 40px;
+    }
+    .hello p:hover{
+        font-size: 30px;
+        transition: 0.4s ease-in-out;
+    }
+    .homebtn{
+        font-size: 13px;
+        font-weight: 800px;
+        border-radius: 60px;
+        padding: 10px 30px;
+        background-color: transparent;
+        transition: 0.8s ease-in-out;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .profile{
+        max-width: 100%;
+        height: auto;
+        padding: 0px 50px;
+    }
+    .hello h1{
+        font-family: "Roboto";
+        font-size: 25px; 
+        font-weight: 900px;
+        transition: 0.4s ease-in-out;
+        letter-spacing: 3px;
+    }
+    .hello h1:hover{
+        font-weight: 800px;
+        font-size: 25px;
+        transition: 0.4s ease-in-out;
+        letter-spacing: 3px;
+    }
+    .hello p{
+        font-size: 20px;
+        transition: 0.4s ease-in-out;
+    }
+    .hello p:hover{
+        font-size: 20px;
+        transition: 0.4s ease-in-out;
+    }
+    .homebtn{
+        font-size: 10px;
+        font-weight: 800px;
+        border-radius: 60px;
+        padding: 10px 30px;
+        background-color: transparent;
+        transition: 0.8s ease-in-out;
+    }
+    .icon {
+        height: 25px;
+        width: auto;
+        transition: 0.6s ease-in-out;
+        list-style: none;
+        padding-right: 50px;
+    }
+    .icon:hover{
+        height: 25px;
+        width: auto;
+    }
+    .buttons button{
+        font-size: 12px;
+        padding: 10px 20px;
+    }
+    .social{
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .profile{
+        max-width: 100%;
+        height: auto;
+        padding: 0px 40px;
+    }
+    .hello h1{
+        font-weight: 800px;
+        font-size: 20px; 
+        transition: 0.4s ease-in-out;
+        letter-spacing: 0px;
+    }
+    .hello h1:hover{
+        font-weight: 800px;
+        font-size: 20px; 
+        transition: 0.4s ease-in-out;
+        letter-spacing: 3px;
+    }
+    .hello p{
+        font-size: 15px;
+        transition: 0.4s ease-in-out;
+    }
+    .hello p:hover{
+        font-size: 15px;
+        transition: 0.4s ease-in-out;
+    }
+    .homebtn{
+        font-size: 10px;
+        font-weight: 800px;
+        border-radius: 60px;
+        padding: 10px 10px;
+        border-style: double;
+        background-color: transparent;
+        transition: 0.8s ease-in-out;
+    }
+    .icon {
+        height: 20px;
+        width: auto;
+        transition: 0.6s ease-in-out;
+        list-style: none;
+        padding-right: 35px;
+    }
+    .icon:hover{
+        height: 20px;
+        width: auto;
+    }
+    .buttons button{
+        font-size: 10px;
+        padding: 10px 15px;
+    }
+}

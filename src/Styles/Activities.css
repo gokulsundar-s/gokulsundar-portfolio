@@ -1,0 +1,146 @@
+.activity-container{
+    padding-bottom: 20px;
+}
+
+.activity-header{
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-family: "Archivo";
+    color: #1B9FFE;
+    text-align: center;
+    font-weight: 700;
+}
+
+.activity-block{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 320px;
+}
+
+.activity-name{
+    display: flex;
+}
+
+.club-name{
+    font-family: "roboto";
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+.activity-name{
+    font-family: "roboto";
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.activity-year p{
+    font-family: "roboto";
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    border-radius: 30px;;
+    background-color: #31a6fe;
+    padding: 12px 15px;
+}
+
+.activity-logo img{
+    padding-top: 15px;
+    padding-right: 30px;
+    height: 70px;
+    width: auto;
+}
+
+.activity-line{
+    width: 50%; 
+}
+
+@media screen and (max-width:1200px) {
+    .activity-block{
+        padding: 20px 150px;
+    }
+}
+
+@media screen and (max-width:1050px) {
+    .activity-block{
+        padding: 20px 100px;
+    }
+}
+
+@media screen and (max-width:950px) {
+    .activity-block{
+        padding: 20px 50px;
+    }
+}
+
+@media screen and (max-width:850px) {
+    .activity-block{
+        padding: 20px 20px;
+    }
+}
+
+@media screen and (max-width:775px) {
+    .activity-block{
+        padding: 35px 30px;
+    }
+    .club-name{
+        font-size: 14px;
+    }
+    .activity-name{
+        font-size: 14px;
+    }
+    .activity-year p{
+        font-size: 11px;
+        padding: 10px 12px;
+    }
+    .activity-logo img{
+        padding-top: 10px;
+        padding-right: 20px;
+        height: 60px;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .activity-header{
+        font-size: 15px;
+    }
+    .activity-block{
+        padding: 35px 15px;
+    }
+    .club-name{
+        font-size: 12px;
+    }
+    .activity-name{
+        font-size: 12px;
+    }
+    .activity-year p{
+        font-size: 10px;
+        padding: 10px 12px;
+    }
+    .activity-logo img{
+        padding-top: 10px;
+        padding-right: 20px;
+        height: 50px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .activity-block{
+        padding: 35px 15px;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .activity-block{
+        flex-direction: column;
+        padding: 5px 20px;
+    }
+    .activity-year p{
+        font-size: 11px;
+        padding: 10px 12px;
+        text-align: center;
+    }
+    .club-header{
+        line-height: 20px;
+    }
+}

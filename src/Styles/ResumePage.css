@@ -1,0 +1,83 @@
+.resume-container{
+    padding-bottom: 100px
+}
+
+.resume-container h1{
+    letter-spacing: 3px;
+    padding-top: 10px;
+    font-family: "Archivo";
+    color: #1B9FFE;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.resume-block{
+    background-color: #fff;
+    margin: 0% 5%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px #00000020;
+}
+
+.resume-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.resume-buttons button{
+    background-color: #31a6fe;
+    width: 100%;
+    height: 70px;
+    border: none;
+    color: white;
+}
+
+.resume-buttons button img{
+    height: 30px;
+    width: auto;
+}
+
+.resume-buttons button.active{
+    background-color: #151720;
+}
+
+.resume-buttons button:hover{
+    background-color: #151720;
+}
+
+#left{
+    border-radius: 20px 0px 0px 0px;
+}
+
+#right{
+    border-radius: 0px 20px 0px 0px;
+}
+
+.resume-content{
+    height: auto;
+}
+
+@media screen and (max-width:1250px) {
+    .resume-container h1{
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .resume-container{
+        padding-top: 30px;
+    }
+    .resume-buttons button{
+        height: 55px;
+    }
+    .resume-buttons button img{
+        height: 22px;
+    }
+    .resume-container h1{
+        font-size: 20px;
+    }
+    .resume-buttons span{
+        display: none;
+    }
+}

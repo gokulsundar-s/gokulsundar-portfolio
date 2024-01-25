@@ -1,0 +1,17 @@
+body{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+  }
+  
+  .home-container, .footer-container{
+    background-color: rgb(21,23,32);
+    margin: -8px;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 0;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: transparent;
+  }

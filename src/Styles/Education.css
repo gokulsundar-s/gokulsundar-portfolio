@@ -1,0 +1,143 @@
+.education-header{
+    font-size: 20px;
+    letter-spacing: 3px;
+    padding-top: 10px;
+    font-family: "Archivo";
+    color: #1B9FFE;
+    text-align: center;
+    font-weight: 700;
+}
+
+.education-block{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 200px;
+}
+
+.education-name{
+    display: flex;
+}
+
+.school-name{
+    font-family: "roboto";
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+.course-name{
+    font-family: "roboto";
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.education-year p{
+    font-family: "roboto";
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    border-radius: 30px;;
+    background-color: #31a6fe;
+    padding: 12px 15px;
+}
+
+.education-logo img{
+    padding-top: 15px;
+    padding-right: 30px;
+    height: 70px;
+    width: auto;
+}
+
+.education-line{
+    width: 50%; 
+}
+
+@media screen and (max-width:1200px) {
+    .education-block{
+        padding: 20px 150px;
+    }
+}
+
+@media screen and (max-width:1050px) {
+    .education-block{
+        padding: 20px 100px;
+    }
+}
+
+@media screen and (max-width:950px) {
+    .education-block{
+        padding: 20px 50px;
+    }
+}
+
+@media screen and (max-width:850px) {
+    .education-block{
+        padding: 20px 20px;
+    }
+}
+
+@media screen and (max-width:775px) {
+    .education-block{
+        padding: 35px 30px;
+    }
+    .school-name{
+        font-size: 14px;
+    }
+    .course-name{
+        font-size: 14px;
+    }
+    .education-year p{
+        font-size: 11px;
+        padding: 10px 12px;
+    }
+    .education-logo img{
+        padding-top: 10px;
+        padding-right: 20px;
+        height: 60px;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .education-header{
+        font-size: 15px;
+    }
+    .education-block{
+        padding: 35px 15px;
+    }
+    .school-name{
+        font-size: 12px;
+    }
+    .course-name{
+        font-size: 12px;
+    }
+    .education-year p{
+        font-size: 10px;
+        padding: 10px 12px;
+    }
+    .education-logo img{
+        padding-top: 10px;
+        padding-right: 20px;
+        height: 50px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .education-block{
+        padding: 35px 15px;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .education-block{
+        flex-direction: column;
+        padding: 5px 20px;
+    }
+    .education-year p{
+        font-size: 11px;
+        padding: 10px 12px;
+        text-align: center;
+    }
+    .school-header{
+        line-height: 20px;
+    }
+}
