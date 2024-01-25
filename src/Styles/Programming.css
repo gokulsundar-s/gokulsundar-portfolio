@@ -91,6 +91,9 @@ progress{
         width: 200px;
         height: 15px;
     }
+    .programming-names{
+        padding-top: 10px;
+    }
 }
 
 @media screen and (max-width:500px) {
@@ -99,12 +102,6 @@ progress{
     }
     .programming-block{
         flex-direction: column;
-    }
-    .programming-names{
-        padding-top: 0px;
-    }
-    .programming-names{
-        padding-top: 0px;
     }
     progress{
         width: 80%;
