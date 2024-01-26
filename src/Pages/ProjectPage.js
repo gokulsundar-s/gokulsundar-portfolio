@@ -11,7 +11,7 @@ class ProjectPage extends Component {
                         <div className = "projects-box">
                             <img src = {require("../../src/Sources/kecpresence-project.png")} alt = "project" className = "project-image"/>
                             <p className = "project-name">KEC Presence</p>
-                            <p className = "project-content">Collaboration is the driving force behind achieving shared objectives. Let's turn collective efforts into achievements.</p>
+                            <p className = "project-content">KEC Presence is a cutting-edge project developed using the MERN stack, designed to redefine and enhance user engagement in the digital space.</p>
                             <div className = "project-buttons">
                                 <div>
                                     <button>View code</button>
@@ -25,7 +25,7 @@ class ProjectPage extends Component {
                         <div className = "projects-box">
                             <img src = {require("../../src/Sources/restaurant-project.png")} alt = "project" className = "project-image"/>
                             <p className = "project-name">Turban Tudka - Restaurant website</p>
-                            <p className = "project-content">Collaboration is the driving force behind achieving shared objectives. Let's turn collective efforts into achievements.</p>
+                            <p className = "project-content">Turban Tudka, a gastronomic website, was developed with the cutting-edge MERN stack to provide a good online experience for our patrons.</p>
                             <div className = "project-buttons">
                                 <div>
                                     <button>View code</button>
@@ -40,7 +40,7 @@ class ProjectPage extends Component {
                         <div className = "projects-box">
                             <img src = {require("../../src/Sources/events-project.png")} alt = "project" className = "project-image"/>
                             <p className = "project-name">CodeUp - Registration website</p>
-                            <p className = "project-content">Collaboration is the driving force behind achieving shared objectives. Let's turn collective efforts into achievements.</p>
+                            <p className = "project-content">CodeUp is an event registration website using HTML, CSS, and Node. JS is a dynamic platform designed to process participant registration.</p>
                             <div className = "project-buttons">
                                 <div>
                                     <button>View code</button>
@@ -54,7 +54,7 @@ class ProjectPage extends Component {
                         <div className = "projects-box">
                             <img src = {require("../../src/Sources/attendance-project.png")} alt = "project" className = "project-image"/>
                             <p className = "project-name">Student attendance system</p>
-                            <p className = "project-content">Collaboration is the driving force behind achieving shared objectives. Let's turn collective efforts into achievements.</p>
+                            <p className = "project-content">CodeUp is an event registration website using HTML, CSS, and Node. JS is a dynamic platform designed to process participant registration.</p>
                             <div className = "project-buttons">
                                 <div>
                                     <button>View code</button>
