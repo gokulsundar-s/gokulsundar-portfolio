@@ -51,15 +51,15 @@ class ContactPage extends Component {
 
                         <form className = "contact-forms" onSubmit={(event) => event.preventDefault()}>
                             <div>
-                                <p>Name</p>
+                                <p className = "input-header">Name</p>
                                 <input type = "text" placeholder = "Name" value={this.state.name} onChange={this.handleNameChange}/>
                             </div>
                             <div>
-                                <p>Email</p>
+                                <p className = "input-header">Email</p>
                                 <input type = "text" placeholder = "Email" value={this.state.email} onChange={this.handleMailChange}/>
                             </div>
                             <div>
-                                <p>Message</p>
+                                <p className = "input-header">Message</p>
                                 <textarea type = "text" placeholder = "Message" value={this.state.message} onChange={this.handleMessageChange}/>
                             </div>
                             <div className = "container-button">

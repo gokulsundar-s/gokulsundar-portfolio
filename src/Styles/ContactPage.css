@@ -43,11 +43,10 @@
     text-align: center;
 }
 
-.contact-forms p{
+.input-header{
     font-family: "Roboto";
     color: #1B9FFE;
     padding-top: 10px; 
-    font-weight: 800; 
 }
 
 .contact-forms input{
@@ -104,6 +103,8 @@
 
 .show-error{
     font-family: "roboto";
+    color: #1B9FFE;
+    padding-top: 10px;
 }
 
 @media screen and (max-width:1250px) {
