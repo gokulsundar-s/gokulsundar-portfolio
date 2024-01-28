@@ -5,40 +5,31 @@ class Activities extends Component {
     render() {
         return (
             <div className = "activity-container">
-                <h1 className = "activity-header">ACTIVITIES</h1>
-
-                <div className = "activity-block">
-                    <div className = "activity-name">
-                        <div className = "activity-logo">
-                            <img src={require("../../src/Sources/CCC-Logo.png")} alt="logo"></img>
-                        </div>
-                        <div className = "club-header">
-                            <p className = "club-name">CSE Coding Club</p>
-                            <p className = "activity-name">Joint Secretary</p>
-                        </div>
-                    </div>
-                    <div className = "education-year">
-                        <p>2021 - 2025</p>
-                    </div>
+                <p className = "activity-header">ACTIVITIES</p>
+                    
+                <div className = "activity-name-container">
+                    <p className = "activity-institution">KONGU ENGINEERING COLLEGE</p>
+                    <p className = "activity-roll">CSE Coding Club - Joint Secretary</p>
                 </div>
-
-                <hr className = "education-line"/>
-
-                <div className = "activity-block">
-                    <div className = "activity-name">
-                        <div className = "activity-logo">
-                            <img src={require("../../src/Sources/CCC-Logo.png")} alt="logo"></img>
-                        </div>
-                        <div className = "club-header">
-                            <p className = "club-name">CSE Coding Club</p>
-                            <p className = "activity-name">Executive Member</p>
-                        </div>
-                    </div>
-                    <div className = "education-year">
-                        <p>2021 - 2025</p>
-                    </div>
+                <div className = "activity-year-container">
+                    <p>2023 - 2024</p>
                 </div>
-
+                    
+                <div className = "activity-name-container">
+                    <p className = "activity-institution">KONGU ENGINEERING COLLEGE</p>
+                    <p className = "activity-roll">CSE Coding Club - Executive Member</p>
+                </div>
+                <div className = "activity-year-container">
+                    <p>2022 - 2023</p>
+                </div>
+                
+                <div className = "activity-name-container">
+                    <p className = "activity-institution">SAGAR INTERNATIONAL SR. SEC. SCHOOL</p>
+                    <p className = "activity-roll">Class Representative</p>
+                </div>
+                <div className = "activity-year-container">
+                    <p>2017 - 2018</p>
+                </div>
             </div>
         )
     }

@@ -1,7 +1,3 @@
-.programming-container{
-    padding-bottom: 70px;
-}
-
 .programming-header{
     font-size: 20px;
     letter-spacing: 3px;
@@ -9,102 +5,57 @@
     color: #1B9FFE;
     text-align: center;
     font-weight: 700;
+    padding-bottom: 0px;
 }
 
-.programming-block{
+.programming-progress-container{
+    padding: 0% 10%;
+}
+
+.programming-progress-header{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    /* margin-bottom: 0px; */
 }
 
-.programming-box{
-    padding: 0% 5%;
-}
-
-.programming-names{
+.programming-progress-outer{
     display: flex;
-    justify-content: space-around;
+    border-radius: 30px;
+    background-color: #d6d6d6;
+    width: 100%;
+    height: 5px;
 }
 
-.programming-names p{
+.programming-name{
     font-family: "roboto";
-    font-size: 18px;
-    font-weight: 700;
-}
-.programming-progress{
-    text-align: center;
+    letter-spacing: 1px;
 }
 
-progress{
-    width: 450px;
-    height: 15px;
+.programming-percentage{
+    font-family: "roboto";
 }
 
-
-@media screen and (max-width:1150px) {
-    .programming-box{
-        padding: 0% 1%;
-    }
-}
-
-@media screen and (max-width:1050px) {
-    .programming-box{
-        padding: 0% 1%;
-    }
-    progress{
-        width: 350px;
-        height: 15px;
-    }
-}
-
-@media screen and (max-width:850px) {
-    progress{
-        width: 300px;
-        height: 15px;
-    }
-    .programming-names p{
-        font-size: 12px;
-    }
-    .programming-names{
-        padding-top: 20px;
-    }
-}
-
-@media screen and (max-width:700px) {
-    progress{
-        width: 250px;
-        height: 15px;
-    }
-    .programming-names p{
-        font-size: 12px;
-        font-weight: 500;
-    }
-}
-
-@media screen and (max-width:650px) {
+@media screen and (max-width: 1250px){
     .programming-header{
-        font-size: 15px;
+        font-size: 16px;
+        padding-bottom: 10px;
     }
 }
 
-@media screen and (max-width:600px) {
-    progress{
-        width: 200px;
-        height: 15px;
+@media screen and (max-width: 600px){
+    .programming-header{
+        font-size: 14px;
     }
-    .programming-names{
-        padding-top: 10px;
+    .programming-name{
+        font-size: 11px;
     }
-}
-
-@media screen and (max-width:500px) {
-    .programming-box{
-        padding: 0% 0%;
+    .programming-percentage{
+        font-size: 11px;
     }
-    .programming-block{
-        flex-direction: column;
+    .programming-progress-header{
+        margin-bottom: 5px;
     }
-    progress{
-        width: 80%;
-        height: 10px;
+    .programming-progress-container{
+        padding-bottom: 15px;
     }
 }

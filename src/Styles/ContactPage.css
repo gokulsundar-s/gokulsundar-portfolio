@@ -1,16 +1,16 @@
 .contact-container{
-    padding-bottom: 80px;
+    padding-bottom: 150px;
 }
 
-.contact-container h1{
+.contact-header{
     letter-spacing: 3px;
-    padding-top: 10px;
+    padding: 10px 0px;
     font-family: "Archivo";
     color: #1B9FFE;
     text-align: center;
 }
 
-.contact-box{
+.contact-container-block{
     background-color: #ffffff;
     padding: 10px 0px;
     margin: 30px 100px;
@@ -18,7 +18,7 @@
     box-shadow: 0px 0px 15px #00000020;
 }
 
-.box-header{
+.contact-block-header{
     text-align: center;
     padding-bottom: 20px;
     font-family: "Roboto";
@@ -32,24 +32,24 @@
     padding-bottom: 50px;
 }
 
-.contact-robot{
+.contact-container-image{
     height: 500px;
     width: auto;
     border-radius: 20px;
 }
 
-.contact-forms{
+.contact-form{
     padding-left: 100px;
     text-align: center;
 }
 
-.input-header{
+.contact-input-header{
     font-family: "Roboto";
     color: #1B9FFE;
     padding-top: 10px; 
 }
 
-.contact-forms input{
+.contact-form input{
     font-family: "Roboto";
     font-size: 15px;
     border-radius: 60px;
@@ -64,12 +64,12 @@
     height: 25px;
 }
 
-.contact-forms textarea{
+.contact-form textarea{
     font-family: "Roboto";
     resize: none;
     font-size: 15px;
     color: #000000;
-    height: 100px;
+    height:100px;
     width: 330px;
     text-align: center;
     border-radius: 10px;
@@ -80,11 +80,11 @@
     padding: 10px 10px;
 }
 
-.container-button{
-    padding-top: 50px;
+.contact-container-button{
+    padding-top: 30px;
 }
 
-.contact-forms button{
+.contact-form button{
     font-size: 15px;
     font-weight: 900px;
     border-radius: 60px;
@@ -96,33 +96,44 @@
     transition: 0.8s ease-in-out;
 }
 
-.contact-forms button:hover{
+.contact-form button:hover{
     background-color: transparent;
     color:#1B9FFE;
 }
 
 .show-error{
     font-family: "roboto";
-    color: #1B9FFE;
-    padding-top: 10px;
+    color: red;
+}
+
+.show-success-message{
+    font-family: "roboto";
+    color: green;
+    text-align: center;
+    margin-top: -1px;
+}
+
+.show-error-message{
+    font-family: "roboto";
+    color: red;
+    text-align: center;
+    margin-top: -1px;
 }
 
 @media screen and (max-width:1250px) {
-    .contact-container h1{
-        letter-spacing: 3px;
-        padding-top: 30px;
+    .contact-header{
         font-size: 25px;
     }
-    .contact-robot{
+    .contact-container-image{
         height: 450px;
     }
-    .contact-forms{
+    .contact-form{
         padding-left: 60px;
     }
-    .contact-forms input, .contact-forms textarea   {
+    .contact-form input, .contact-form textarea   {
         width: 300px;
     }
-    .container-button{
+    .contact-container-button{
         padding-top: 20px;
     }
 }
@@ -131,7 +142,7 @@
     .inside-container{
         flex-direction: column; 
     }
-    .contact-robot{
+    .contact-container-image{
         width: 300px;
         height: auto;
         display: block;
@@ -139,12 +150,12 @@
         margin-right: auto;
         width: 50%;
     }
-    .contact-forms{
+    .contact-form{
         padding-left: 0px;
     }
 }
 
-@media screen and (max-width:700px) {
+@media screen and (max-width:800px) {
     .contact-container{
         padding: 0px 0px;
         padding-bottom: 50px;
@@ -152,68 +163,74 @@
 }
 
 @media screen and (max-width:600px) {
-    .contact-box{
+    .contact-container-block{
         margin: 30px 50px;
     }
-    .contact-forms input, .contact-forms textarea   {
+    .contact-form input, .contact-form textarea   {
         width: 300px;
     }
-    .box-header{
+    .contact-block-header{
         font-size: 18px;
     }
     .show-error{
         font-size: 12px;
         padding-top: 20px;
     }
-    .contact-container h1{
-        padding-top: 0px;
+    .contact-header{
+        font-size: 20px;
     }
 }
 
 @media screen and (max-width:450px) {
-    .contact-box{
+    .contact-container-block{
         margin: 30px 30px;
     }
-    .contact-forms input {
+    .contact-form input {
         width: 250px;
         height: 15px;
         font-size: 12px;
     }
-    .contact-forms textarea{
+    .contact-form textarea{
         width: 250px;
         font-size: 12px;
     }
-    .contact-forms button{
+    .contact-form button{
         font-size: 13px;
     }
-    .contact-forms p{
+    .contact-form p{
         font-size: 13px;
     }
-    .container-button{
+    .contact-container-button{
         padding-top: 30px;
     }
 }
 
 @media screen and (max-width:350px) {
-    .contact-box{
+    .contact-container-block{
         margin: 30px 20px;
     }
-    .contact-forms input {
+    .contact-form input {
         width: 150px;
         height: 10px;
         font-size: 12px;
     }
-    .contact-forms textarea{
+    .contact-form textarea{
         width: 150px;
         font-size: 12px;
     }
-    .contact-forms button{
+    .contact-form button{
         font-size: 11px;
     }
-    .contact-forms p{
+    .contact-form p{
         font-size: 13px;
     }
     .show-error{
+        font-size: 5px;
+    }
+    .show-success-message{
+        font-size: 5px;
+    }
+    .show-error-message{
         font-size: 5px;
     }
 }

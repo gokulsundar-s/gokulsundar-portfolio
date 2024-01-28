@@ -20,10 +20,10 @@ class ResumePage extends Component {
     render() {
         const { activeTab } = this.state;
         return (
-            <div className = "resume-container" id = "page-3">
-                <h1>RESUME</h1>
-                <div className = "resume-block">
-                    <div className = "resume-buttons">
+            <div className = "resume-container">
+                <h1 className = "resume-header" id = "page-3">RESUME</h1>
+                <div className = "resume-container-box">
+                    <div className = "resume-box-buttons">
                         <button className={activeTab === 1 ? 'active' : ''} id = "left" onClick={() => this.handleTabClick(1)}><div><img src={require("../../src/Sources/education.png")} alt = "icon"></img></div><span>Education</span></button>
                         <button className={activeTab === 2 ? 'active' : ''} onClick={() => this.handleTabClick(2)}><div><img src={require("../../src/Sources/programming.png")} alt = "icon"></img></div><span>Programming</span></button>
                         <button className={activeTab === 3 ? 'active' : ''} onClick={() => this.handleTabClick(3)}><div><img src={require("../../src/Sources/interest.png")} alt = "icon"></img></div><span>Interest</span></button>

@@ -3,9 +3,14 @@ body{
     overflow-x: hidden;
   }
   
-  .home-container, .footer-container{
+  .navbar-container, .footer-container{
     background-color: rgb(21,23,32);
-    margin: -8px;
+    margin: 0px;
+  }
+
+  .home-container{
+    background-color: rgb(21,23,32);
+    margin-top: -2px;
   }
   
   ::-webkit-scrollbar {

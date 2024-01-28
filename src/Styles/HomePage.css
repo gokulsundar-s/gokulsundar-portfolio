@@ -1,17 +1,17 @@
-.home-page{
+.home-container{
     display: flex;
     justify-content: space-around;
-    padding: 40px 80px;
+    padding: 10px 80px;
 }
 
-.hello{
+.home-left{
     text-align: center;
     padding: 20px 70px;
-    letter-spacing: 5px;
     padding-top: 10px;
+    letter-spacing: 3px;
 }
 
-.hello h1{
+.home-left h1{
     font-weight: 800px;
     font-size: 50px;
     color: rgb(27,159,254); 
@@ -20,7 +20,7 @@
     letter-spacing: 5px;
 }
 
-.hello p{
+.home-left p{
     color: #FFF;
     font-size: 30px;
     transition: 0.6s ease-in-out;
@@ -28,26 +28,39 @@
     font-family: "Archivo";
 }
 
-.hello h1:hover{
+.home-left h1:hover{
     font-size: 53px;
+    cursor:pointer;
 }
 
-.hello p:hover{
+.home-left p:hover, .home-skills-container span:hover{
     font-size: 33px;
+    cursor:pointer; 
 }
 
-.profile{
+.home-right-profile{
     height: 480px;
     width: auto;
     transition: 1s ease-in-out;
 }
 
-.profile:hover{
+.home-right-profile:hover{
     height: 510px;
     width: auto;
 }
 
-.icon {
+.left-social-icons-container{
+    display: flex;  
+    justify-content: space-evenly; 
+    padding-bottom: 80px;
+}
+
+.left-social-icons-container li{
+    list-style: none;
+    padding-top: 70px;
+}
+
+.left-social-icon{
     height: 30px;
     width: auto;
     transition: 0.4s ease-in-out;
@@ -55,268 +68,277 @@
     padding-right: 50px;
 }
 
-.icon:hover{
+.left-social-icon:hover{
     height: 35px;
     width: auto;
 }
 
-.social li{
-    list-style: none;
+.left-buttons-container{
     padding-top: 70px;
-}
-
-.social{
-    display: flex;  
-    justify-content: space-evenly; 
-    padding-bottom: 40px;
-}
-
-.buttons{
-    padding-top: 30px;
     display:flex;
     justify-content: space-around;
 }
 
-.homebtn{
+.left-button{
     font-size: 15px;
     font-weight: 800px;
     border-radius: 60px;
     padding: 10px 30px;
-    border-color: #1B9FFE;
-    background-color: transparent;
+    border-color: transparent;
+    background-color: #1B9FFE;
     border-style: solid;
-    color: #1B9FFE;
+    color: rgb(21,23,32);
     transition: 0.8s ease-in-out;
 }
 
-.homebtn:hover{
-    background-color:#1B9FFE;
-    color:#FFFFFF;
+.left-button:hover{
+    background-color: transparent;
+    color:#1B9FFE;
+    border-color: #1B9FFE;
     cursor:pointer;
 }
 
+.home-skills-container{
+    height: 50px;
+    line-height: 50px;
+    overflow: hidden;
+    letter-spacing: 3px;
+}
+
+.home-skills-container span{
+    position: relative;
+    color: #ffffff;
+    font-size: 30px;
+    font-family: "Archivo";
+    animation: animation 10s ease infinite;
+    transition: 0.6s ease-in-out;
+}
+
+@keyframes animation{
+    0% {top: 0;}
+    15% {top: 0;}
+    40% {top: -55px;}
+    58% {top: -105px;}
+    77% {top: -155px;}
+    96% {top: -210px;}
+    100% {top: 0;}
+}
+
 @media screen and (max-width:1350px) {
-    .home-page{
+    .home-container{
         display: flex;
         justify-content: space-around;
         padding: 125x 50px;
     }
-    .hello{
+    .home-left{
         padding-top: 10px;
     }
-    .profile{
+    .home-right-profile{
         height: 400px;
         width: auto;
         padding-top: 20px;
     }
-    .profile:hover{
+    .home-right-profile:hover{
         height:430px;
         width:auto;
     }
-    .hello h1{
+    .home-left h1{
         font-weight: 800px;
-        font-size: 37px; 
+        font-size: 30px; 
         transition: 0.4s ease-in-out;
     }
-    .hello p{
+    .home-left p, .home-skills-container span{
         font-size: 25px;
         transition: 0.4s ease-in-out;
     }
-    .hello h1:hover{
+    .home-left h1:hover{
         font-size: 40px;
     }
-    .hello p:hover{
+    .home-left p:hover{
         font-size: 28px;
         transition: 0.4s ease-in-out;
     }
-
-    .social li{
+    .left-social-icons-container li{
         padding-top: 50px;
     }
 }
 
 @media screen and (max-width:1100px) {
-    .home-page{
-        display: flex;
+    .home-container{
         flex-direction: column-reverse;
         padding-top: 0px;
     }
-    .profile{
+    .home-right-profile{
         padding-top: 10px;
         max-width: 100%;
         height: auto;
         padding: 0px 200px;
     }
-    .profile:hover{
+    .home-right-profile:hover{
         height: 100%;
         width: auto;
     }
-    .hello h1{
+    .home-left h1{
         font-weight: 800px;
         font-size: 40px;
         transition: 0.4s ease-in-out;
     }
-    .hello p{
+    .home-left p, .home-skills-container span{
         font-size: 25px;
         transition: 0.4s ease-in-out;
     }
-    .hello h1:hover{
+    .home-left h1:hover{
         font-size: 45px;
     }
-    .hello p:hover{
+    .home-left p:hover{
         font-size: 30px;
         transition: 0.4s ease-in-out;
     }
 }
 
 @media screen and (max-width:800px) {
-    .home-page{
+    .home-container{
         display: flex;
         flex-direction: column-reverse;
         padding: 0px 0px;
     }
-    .profile{
+    .home-right-profile{
         max-width: 100%;
         height: auto;
         padding: 0px 120px;
     }
-    .hello{
+    .home-left{
         text-align: center;
         font-family: "Roboto";
         padding: 0px 20px;
         letter-spacing: 3px;
         padding-top: 20px;
     }
-    .hello h1{
+    .home-left h1{
         font-weight: 800px;
         font-size: 35px;
         transition: 0.4s ease-in-out;
         letter-spacing: 3px;
     }
-    .hello p{
+    .home-left p, .home-skills-container span{
         font-size: 25px;
         transition: 0.4s ease-in-out;
         font-family: "Roboto";
     }
-    .hello h1:hover{
+    .home-left h1:hover{
         font-size: 40px;
     }
-    .hello p:hover{
+    .home-left p:hover{
         font-size: 30px;
         transition: 0.4s ease-in-out;
     }
-    .homebtn{
+    .left-button{
         font-size: 13px;
         font-weight: 800px;
         border-radius: 60px;
         padding: 10px 30px;
-        background-color: transparent;
         transition: 0.8s ease-in-out;
+    }
+    .left-button:hover{
+        border-color: transparent;
+        background-color: #1B9FFE;
+        color: rgb(21,23,32);
     }
 }
 
-@media screen and (max-width:400px) {
-    .profile{
+@media screen and (max-width:425px) {
+    .home-right-profile{
         max-width: 100%;
         height: auto;
         padding: 0px 50px;
     }
-    .hello h1{
+    .home-left h1{
         font-family: "Roboto";
         font-size: 25px; 
         font-weight: 900px;
         transition: 0.4s ease-in-out;
         letter-spacing: 3px;
     }
-    .hello h1:hover{
+    .home-left h1:hover{
         font-weight: 800px;
         font-size: 25px;
         transition: 0.4s ease-in-out;
         letter-spacing: 3px;
     }
-    .hello p{
+    .home-left p, .home-skills-container span{
         font-size: 20px;
         transition: 0.4s ease-in-out;
     }
-    .hello p:hover{
+    .home-left p:hover{
         font-size: 20px;
         transition: 0.4s ease-in-out;
     }
-    .homebtn{
+    .left-button{
         font-size: 10px;
         font-weight: 800px;
         border-radius: 60px;
         padding: 10px 30px;
-        background-color: transparent;
-        transition: 0.8s ease-in-out;
     }
-    .icon {
+    .left-social-icon {
         height: 25px;
         width: auto;
         transition: 0.6s ease-in-out;
         list-style: none;
         padding-right: 50px;
     }
-    .icon:hover{
-        height: 25px;
-        width: auto;
-    }
-    .buttons button{
+    .left-buttons-container button{
         font-size: 12px;
         padding: 10px 20px;
     }
-    .social{
+    .left-social-icons-container{
         justify-content: center;
     }
 }
 
 @media screen and (max-width: 350px) {
-    .profile{
+    .home-right-profile{
         max-width: 100%;
         height: auto;
         padding: 0px 40px;
     }
-    .hello h1{
+    .home-left h1{
         font-weight: 800px;
         font-size: 20px; 
         transition: 0.4s ease-in-out;
         letter-spacing: 0px;
     }
-    .hello h1:hover{
+    .home-left h1:hover{
         font-weight: 800px;
         font-size: 20px; 
         transition: 0.4s ease-in-out;
         letter-spacing: 3px;
     }
-    .hello p{
+    .home-left p, .home-skills-container span{
         font-size: 15px;
         transition: 0.4s ease-in-out;
     }
-    .hello p:hover{
+    .home-left p:hover{
         font-size: 15px;
         transition: 0.4s ease-in-out;
     }
-    .homebtn{
+    .left-button{
         font-size: 10px;
         font-weight: 800px;
         border-radius: 60px;
         padding: 10px 10px;
-        border-style: double;
-        background-color: transparent;
-        transition: 0.8s ease-in-out;
     }
-    .icon {
+    .left-social-icon {
         height: 20px;
         width: auto;
         transition: 0.6s ease-in-out;
         list-style: none;
         padding-right: 35px;
     }
-    .icon:hover{
+    .left-social-icon:hover{
         height: 20px;
         width: auto;
     }
-    .buttons button{
+    .left-buttons-container button{
         font-size: 10px;
         padding: 10px 15px;
     }

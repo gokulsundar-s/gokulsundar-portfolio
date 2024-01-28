@@ -5,31 +5,72 @@
     color: #1B9FFE;
     text-align: center;
     font-weight: 700;
+    padding-bottom: 10px;
 }
 
-.interest-block{
+.interest-name-container{
+    font-family: "roboto";
     text-align: center;
-    padding: 0% 2%;
+    padding: 0px 10px;
+    line-height: 20px;
 }
 
-.sub-heading{
-    font-family: "roboto";
-    font-size: 20px;
-    font-weight: 700;
-}
-
-.sub-content{
-    font-family: "roboto";
+.interest-topic{
     font-size: 18px;
-    padding-bottom: 30px;
-    line-height: 35px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color:#000;
+    padding-top: 20px;
 }
 
-@media screen and (max-width:600px) {
-    .sub-heading{
-        font-size: 17px;
+.interest-content{
+    font-size: 15px;
+    font-weight: 200;
+    padding-bottom: 70px;
+}
+
+@media screen and (max-width: 1250px){
+    .interest-header{
+        font-size: 16px;
     }
-    .sub-content{
+}
+
+@media screen and (max-width: 800px){
+    .interest-topic{
         font-size: 15px;
+    }
+    .interest-content{
+        font-size: 12px;
+    }
+}
+
+
+@media screen and (max-width: 600px){
+    .interest-header{
+        font-size: 14px;
+    }
+    .interest-topic{
+        font-size: 12px;
+    }
+    .interest-content{
+        font-size: 11px;
+    }
+    .interest-content{
+        padding-bottom: 70px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .interest-content{
+        padding-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 340px){
+    .interest-topic{
+        line-height: 18px;;
+    }
+    .interest-content{
+        line-height: 18px;
     }
 }
