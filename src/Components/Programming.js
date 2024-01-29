@@ -1,8 +1,7 @@
-import { Component } from 'react';
+import React from 'react';
 import '../Styles/Programming.css';
 
-class Programmming extends Component {
-    render() {
+export default function Programming() {
         return (
             <div className = "programming-container">
                 <p className = "programming-header">PROGRAMMING</p>
@@ -89,6 +88,3 @@ class Programmming extends Component {
             </div>
         )
     }
-}
-
-export default Programmming;
