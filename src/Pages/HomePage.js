@@ -23,7 +23,7 @@ export default function HomePage() {
                 </div>
 
                 <div className = "left-buttons-container">
-                    <button className = "left-button"><Link to="page-5" smooth={true}><b>HIRE ME</b></Link></button>
+                    <Link to="page-5" smooth={true}><button className = "left-button"><b>HIRE ME</b></button></Link>
                     <a href={require("../../src/Sources/Gokulsundar S.pdf")} download="Gokulsundar S"><button className = "left-button"><b>GET RESUME</b></button></a>
                 </div>
 

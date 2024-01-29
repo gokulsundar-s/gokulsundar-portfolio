@@ -55,7 +55,7 @@ export default function ProjectPage() {
                     <div className = "projects-box">
                         <img src = {require("../../src/Sources/attendance-project.png")} alt = "project" className = "project-image"/>
                         <p className = "project-name">Student attendance system</p>
-                        <p className = "project-content">CodeUp is an event registration website using HTML, CSS, and Node. JS is a dynamic platform designed to process participant registration.</p>
+                        <p className = "project-content">Student Attendance Management System is a Java application designed to track and manage student attendance efficiently.</p>
                         <div className = "project-buttons">
                             <div>
                                 <a href = "https://github.com/gokulsundar-s/student-attendanve-management-system-Java" target = "_blank" rel="noreferrer"><button>View code</button></a>

@@ -17,7 +17,7 @@ export default function Interests() {
 
             <div className = "interest-name-container">
                 <p className = "interest-topic">COMPUTER GAMES🎮</p>
-                <p className = "interest-content">Computer games are immersive digital experiences that blend technology, storytelling, and interactive gameplay, providing players a good entertainment.</p>
+                <p className = "interest-content">Computer games are immersive digital experiences that blend technology, storytelling, and interactive gameplay, providing players with good entertainment.</p>
             </div>
         </div>
     )

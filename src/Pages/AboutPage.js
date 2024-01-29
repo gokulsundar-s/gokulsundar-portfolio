@@ -8,14 +8,14 @@ export default function AboutPage() {
 
             <div className = "about-top-container">
                 <p className = "about-top-header"><b>Why to choose me?🎯</b></p>
-                <p className = "about-top-content">I am passionate full-stack developer with a keen eye for creative design. My journey in the world of technology began with a strong fascination for turning ideas into interactive and visually stunning experiences. Armed with a love for frontend development and craft engaging user interfaces that not only look great but also deliver enjoyable user experiences.</p>
+                <p className = "about-top-content">I am a passionate full-stack developer with a keen eye for creative design. My journey in the world of technology began with a strong fascination for turning ideas into interactive and visually stunning experiences. Armed with a love for frontend development and crafting engaging user interfaces that not only look great but also deliver enjoyable user experiences.</p>
             </div>
         
             <div className = "about-bottom-container">
                 <div className = "about-bottom-boxes">
                     <img src={require("../../src/Sources/teamwork.png")} alt="frontend developer" className = "box-icon"></img>
                     <h3>Teamwork</h3>
-                    <p>Collaboration is the driving force behind achieving shared objectives. Let's turn collective efforts into achievements.</p>
+                    <p>Collaboration is the driving force behind achieving shared objectives. Let's turn our collective efforts into achievements.</p>
                 </div>
                 
                 <div className = "about-bottom-boxes">
