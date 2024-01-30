@@ -115,13 +115,10 @@
 }
 
 @keyframes animation{
-    0% {top: 0;}
-    15% {top: 0;}
-    40% {top: -55px;}
-    58% {top: -105px;}
-    77% {top: -155px;}
-    96% {top: -210px;}
-    100% {top: 0;}
+    0%,100% {top: 0;}
+    25% {top: -55px;}
+    50% {top: -105px;}
+    75% {top: -155px;}
 }
 
 @media screen and (max-width:1350px) {

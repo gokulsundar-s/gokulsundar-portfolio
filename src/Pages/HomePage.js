@@ -18,7 +18,6 @@ export default function HomePage() {
                         ReactJS Developer😎<br/>
                         MERN Stack Developer👨‍💻<br/>
                         Web Designer🖥️<br/>
-                        UI/UX Designer✌️<br/>
                     </span>
                 </div>
 
