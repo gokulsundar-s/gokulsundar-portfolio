@@ -15,6 +15,10 @@
     padding-right: 50px;
 }
 
+.footer-social-icons-container img:hover{
+    height: 30px;
+}
+
 .footer-social-icons-container li{
     list-style: none;
     padding-top: 40px;
@@ -59,24 +63,23 @@
         padding-top: 50px;
         letter-spacing: 8px;
     }
-    
     .footer-social-icons-container img{
         height: 20px;
         width: auto;
         list-style: none;
         display: flex;
     }
-    
+    .footer-social-icons-container img:hover{
+        height: 20px;
+    }
     .footer-social-icons-container li{
         list-style: none;
         padding-top: 30px;
     }
-    
     .footer-social-icons-container{
         display: flex;  
         justify-content: center;  
     }
-    
     .footer-contact-info{
         font-family: "Roboto";
         font-size: 13px;
@@ -84,11 +87,9 @@
         text-align: center;
         letter-spacing: 2px;
     }
-    
     .footer-phone-number{
         padding-top: 30px;
     }
-    
     .footer-copyrights-container{
         display: flex;
         justify-content: center;
@@ -106,6 +107,9 @@
         font-size: 13px;
     }
     .footer-social-icons-container img{
+        height: 13px;
+    }
+    .footer-social-icons-container img:hover{
         height: 13px;
     }
     .footer-copyrights-container{
