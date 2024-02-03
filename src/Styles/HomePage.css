@@ -88,7 +88,6 @@
     background-color: #1B9FFE;
     border-style: solid;
     color: rgb(21,23,32);
-    transition: 0.8s ease-in-out;
 }
 
 .left-button:hover{
