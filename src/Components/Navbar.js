@@ -11,7 +11,7 @@ export default function Navbar() {
 
     return (
         <div className = "navbar-container">
-            <a href="*" className = "navbar-name" id="page-1"><span>GOKULSUNDAR S</span></a>
+            <a href="/" className = "navbar-name" id="page-1"><span>GOKULSUNDAR S</span></a>
             <div>
                 <ul id="btns" className = {clicked ? "bnts active" : "#btns"}>
                     <li><Link to="page-1" smooth="true">Home</Link></li>
