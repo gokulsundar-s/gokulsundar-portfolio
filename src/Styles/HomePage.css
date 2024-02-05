@@ -30,12 +30,10 @@
 
 .home-left h1:hover{
     font-size: 53px;
-    cursor:pointer;
 }
 
 .home-left p:hover, .home-skills-container span:hover{
-    font-size: 33px;
-    cursor:pointer; 
+    font-size: 33px; 
 }
 
 .home-right-profile{
