@@ -1,7 +1,6 @@
 import React, {useState} from 'react';
 import Education from "../Components/Education";
 import Programming from "../Components/Programming";
-import Interest from "../Components/Interests";
 import Activities from "../Components/Activities";
 import '../Styles/ResumePage.css';
 
@@ -20,15 +19,13 @@ export default function ResumePage() {
                     <div className = "resume-box-buttons">
                         <button className={activeTab === 1 ? 'active' : ''} id = "left" onClick={() => handleTabClick(1)}><div><img src={require("../../src/Sources/education.png")} alt = "icon"></img></div><span>Education</span></button>
                         <button className={activeTab === 2 ? 'active' : ''} onClick={() => handleTabClick(2)}><div><img src={require("../../src/Sources/programming.png")} alt = "icon"></img></div><span>Programming</span></button>
-                        <button className={activeTab === 3 ? 'active' : ''} onClick={() => handleTabClick(3)}><div><img src={require("../../src/Sources/interest.png")} alt = "icon"></img></div><span>Interest</span></button>
-                        <button className={activeTab === 4 ? 'active' : ''} id = "right" onClick={() => handleTabClick(4)}><div><img src={require("../../src/Sources/activity.png")} alt = "icon"></img></div><span>Activities</span></button>
+                        <button className={activeTab === 3 ? 'active' : ''} id = "right" onClick={() => handleTabClick(3)}><div><img src={require("../../src/Sources/activity.png")} alt = "icon"></img></div><span>Activities</span></button>
                     </div>
 
                     <div className = "resume-content">
                         {activeTab === 1 && <Education/>}
                         {activeTab === 2  && <Programming/>}
-                        {activeTab === 3 && <Interest/>}
-                        {activeTab === 4 && <Activities/>}
+                        {activeTab === 3 && <Activities/>}
                     </div>
                 </div>
             </div>

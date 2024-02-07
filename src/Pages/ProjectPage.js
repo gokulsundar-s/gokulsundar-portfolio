@@ -41,7 +41,7 @@ export default function ProjectPage() {
                     <div className = "projects-box">
                         <img src = {require("../../src/Sources/events-project.png")} alt = "project" className = "project-image"/>
                         <p className = "project-name">CodeUp - Registration website</p>
-                        <p className = "project-content">CodeUp is an event registration website using HTML, CSS, and Node. JS is a dynamic platform designed to process participant registration.</p>
+                        <p className = "project-content">CodeUp is an event registration website using HTML, CSS, and NodeJS is a dynamic platform designed to process participant registration.</p>
                         <div className = "project-buttons">
                             <div>
                                 <a href = "https://github.com/gokulsundar-s/CodeUp-event-registration-website" target = "_blank" rel="noreferrer"><button>View code</button></a>
