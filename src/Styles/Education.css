@@ -83,7 +83,7 @@
     }
 }
 
-@media screen and (max-width: 360px){
+@media screen and (max-width: 340px){
     .education-year-container{
         padding-bottom: 40px;
         padding-top: 0px;
@@ -92,7 +92,7 @@
         line-height: 20px;;
     }
     .education-course{
-        line-height: 18px;
+        line-height: 20px;
     }
 }
 
