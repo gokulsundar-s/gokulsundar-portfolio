@@ -78,16 +78,18 @@
         font-size: 10px;
     }
     .education-year-container{
-        padding-bottom: 60px;
+        padding-bottom: 50px;
+        padding-top: 10px;
     }
 }
 
-@media screen and (max-width: 340px){
+@media screen and (max-width: 360px){
     .education-year-container{
-        padding-bottom: 15px;
+        padding-bottom: 20px;
+        padding-top: 0px;
     }
     .education-institution{
-        line-height: 18px;;
+        line-height: 20px;;
     }
     .education-course{
         line-height: 18px;

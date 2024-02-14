@@ -78,18 +78,20 @@
         font-size: 10px;
     }
     .activity-year-container{
-        padding-bottom: 60px;
+        padding-bottom: 50px;
+        padding-top: 10px;
     }
 }
 
 @media screen and (max-width: 340px){
     .activity-year-container{
         padding-bottom: 40px;
+        padding-top: 0px;
     }
     .activity-institution{
-        line-height: 18px;;
+        line-height: 20px;
     }
     .activity-roll{
-        line-height: 18px;
+        line-height: 20px;
     }
 }
