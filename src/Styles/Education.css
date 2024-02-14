@@ -85,7 +85,7 @@
 
 @media screen and (max-width: 360px){
     .education-year-container{
-        padding-bottom: 20px;
+        padding-bottom: 40px;
         padding-top: 0px;
     }
     .education-institution{
@@ -93,5 +93,12 @@
     }
     .education-course{
         line-height: 18px;
+    }
+}
+
+@media screen and (max-width: 300px){
+    .education-year-container{
+        padding-bottom: 20px;
+        padding-top: 0px;
     }
 }

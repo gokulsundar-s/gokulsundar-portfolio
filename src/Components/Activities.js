@@ -23,7 +23,7 @@ export default function Activities() {
             </div>
                 
             <div className = "activity-name-container">
-                <p className = "activity-institution">SAGAR INTERNATIONAL gtSCHOOL</p>
+                <p className = "activity-institution">SAGAR INTERNATIONAL SCHOOL</p>
                 <p className = "activity-roll">Class Representative</p>
             </div>
             <div className = "activity-year-container">
