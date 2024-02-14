@@ -15,7 +15,7 @@ export default function Education() {
             </div>
                 
             <div className = "education-name-container">
-                <p className = "education-institution">SAGAR INTERNATIONAL SR. SEC. SCHOOL</p>
+                <p className = "education-institution">SAGAR INTERNATIONAL SCHOOL</p>
                 <p className = "education-course">Higher Secondary Certificate - 83.8%</p>
             </div>
             <div className = "education-year-container">
@@ -23,7 +23,7 @@ export default function Education() {
             </div>
                 
             <div className = "education-name-container">
-                <p className = "education-institution">SAGAR INTERNATIONAL SR. SEC. SCHOOL</p>
+                <p className = "education-institution">SAGAR INTERNATIONAL SCHOOL</p>
                 <p className = "education-course">Secondary School Leaving Certificate - 74.4%</p>
             </div>
             <div className = "education-year-container">
