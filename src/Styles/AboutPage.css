@@ -1,180 +1,28 @@
-.about-container{
-    color: #000000;
-    text-align: center;
-    justify-content: center;
-    padding-top: 100px;
-    padding-bottom: 150px;
-}
-
-.about-header{
-    letter-spacing: 3px;
-    font-family: "Archivo";
-    color: #1B9FFE;
-    padding: 10px 0px;
-}
-
-.about-top-container{
-    background-color: #ffffff;
-    padding: 10px 0px;
-    margin: 30px 80px;
-    border-radius: 20px;
-    box-shadow: 0px 0px 15px #00000020;
-}
-
-.about-top-header{
-    font-family: "Roboto";
-    font-size: 20px;
-    color: #000000;
-}
-
-.about-top-content{
-    font-size: 20px;
-    padding: 10px 150px;
-    line-height: 50px;
-    font-family: 'Roboto';
-}
-
-.about-bottom-container{
+.about-box-conatiner{
     display: flex;
-    justify-content: space-evenly;
-    font-family: 'Roboto';
-}
-
-.about-bottom-boxes{
-    padding: 20px 30px;
-    background-color: #ffffff;
-    margin: 0px 80px;
-    border-radius: 20px;
+    justify-content: center;
+    padding: 2% 2%;
+    margin: 0 5%;
+    border-radius: 1rem;
     box-shadow: 0px 0px 15px #00000020;
 }
 
-.about-bottom-boxes p{
-    line-height: 40px;
-    font-family: "Roboto";
-    font-size: 18px;
+.about-right-profile{
+    width: 30%;
+    height: 30%;
+    top: 50%;
+    border-radius: 0.8rem 0 0 0.8rem;
 }
 
-.box-icon{
-    height: 60px;
-    width: auto;
+.about-left-header{
+    font-size: 1.2rem;
+    color: #000000;
+    padding: 2.5rem 0 1.5rem 0;
 }
 
-@media screen and (max-width:1250px) {
-    .about-header{
-        letter-spacing: 3px;
-        padding-top: 30px;
-        font-size: 25px;
-    }
-    .about-top-content{
-        font-size: 20px;
-        padding: 10px 20px;
-        line-height: 50px;
-    }
-    .about-top-header{
-        font-family: "Roboto";
-        font-size: 20px;
-    }
-    .about-top-container{
-        padding-top: 10px; 
-    }
-    .about-bottom-container{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    
-    }
-    .about-bottom-boxes{
-        margin: 20px 80px;
-    }
-    .about-bottom-boxes p{
-        line-height: 40px;
-        font-family: "Roboto";
-        font-size: 20px;
-    }
-    .box-icon{
-        height: 70px;
-        width: auto;
-    }
-}
-
-@media screen and (max-width: 800px) {
-    .about-container{
-        padding-bottom: 100px;
-        padding-top: 50px;
-    }    
-}
-
-@media screen and (max-width:600px) {
-    .about-header{
-        letter-spacing: 3px;
-        font-size: 20px;
-    }
-    .about-top-content{
-        font-size: 17px;
-        padding: 0px 15px;
-        line-height: 35px;
-    }
-    .about-top-header{
-        font-family: "Roboto";
-        font-size: 18px;
-    }
-    .about-top-container{
-        padding-top: 20px; 
-        margin: 30px 60px;
-    }
-    .about-bottom-container{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-    .about-bottom-boxes{
-        margin: 30px 60px;
-    }
-    .about-bottom-boxes p{
-        line-height: 35px;
-        font-family: "Roboto";
-        font-size: 17px;
-    }
-    .box-icon{
-        height: 70px;
-        width: auto;
-    }
-}
-
-@media screen and (max-width: 400px) {
-    .about-header{
-        letter-spacing: 3px;
-        font-size: 20px;
-    }
-    .about-top-content{
-        font-size: 15px;
-        padding: 10px 5px;
-        line-height: 35px;
-    }
-    .about-top-header{
-        font-family: "Roboto";
-        font-size: 18px;
-    }
-    .about-top-container{
-        margin: 30px 20px; 
-        padding: 30px 30px;
-    }
-    .about-bottom-container{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-    .about-bottom-boxes{
-        margin: 30px 20px; 
-        padding: 30px 30px;
-    }
-    .about-bottom-boxes p{
-        line-height: 40px;
-        font-family: "Roboto";
-        font-size: 15px;
-    }
-    .box-icon{
-        height: 60px;
-        width: auto;
-    }
+.about-left-content{
+    font-size: 1.2rem;
+    line-height: 220%;
+    padding-left: 8%;
+    padding-right: 2%
 }

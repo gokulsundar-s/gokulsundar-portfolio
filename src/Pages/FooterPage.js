@@ -19,8 +19,8 @@ export default function FooterPage() {
             </div>
 
             <div className = "footer-copyrights-container">
-                <p>&#169;</p>
-                <p> Gokulsundar Sundararaj, All rights reserved.</p>
+                <p></p>
+                <p>&#169; Gokulsundar Sundararaj❤️ | All rights reserved.</p>
             </div>
 
         </div>

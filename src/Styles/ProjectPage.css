@@ -1,19 +1,7 @@
-.project-container{
-    padding-bottom: 150px;
-}
-
-.project-header{
-    letter-spacing: 3px;
-    padding: 10px 0px;
-    font-family: "Archivo";
-    color: #1B9FFE;
-    text-align: center;
-}
 
 .projects-container-block{
     display: flex;
     justify-content: center;
-    padding-top: 50px;
 }
 
 .projects-flex-container{
@@ -43,20 +31,16 @@
 .project-name{
     font-weight: 800;
     text-align: center;
-    padding: 20px 0px;
 }
 
 .project-content{
     text-align: center;
     line-height: 30px;
-    padding-top: 20px;
 }
 
 .project-buttons{
     display: flex;
     justify-content: space-around;
-    padding-bottom: 30px;
-    padding-top: 30px;
 }
 
 .project-buttons button{
@@ -74,120 +58,4 @@
 .project-buttons button:hover{
     background-color: #1B9FFE;
     color: #fff;
-}
-
-@media screen and (max-width:1450px) {
-    .projects-box{
-        width: 280px;
-    }
-    .project-image{
-        width: 270px;
-    }
-}
-
-@media screen and (max-width:1350px) {
-    .projects-box{
-        width: 250px;
-    }
-    .project-image{
-        width: 240px;
-    }
-}
-
-@media screen and (max-width:1250px) {
-    .project-header{
-        font-size: 25px;
-    }
-   .projects-container-block{
-        flex-direction: column;
-   }
-   .projects-flex-container{
-    padding-bottom: 80px;
-   }
-   .projects-box{
-        width: 400px;
-        margin: 0px 40px;
-   }
-   .project-image{
-        width: 390px; 
-   }
-}
-
-@media screen and (max-width:950px) {
-    .projects-box{
-        width: 300px;
-        margin: 0px 20px;
-    }
-    .project-image{
-        width: 290px;
-    }
-}
-
-@media screen and (max-width:800px) {
-    .project-container{
-        padding-bottom: 50px;
-    }
-    .projects-flex-container{
-        flex-direction: column;
-        margin-top: -80px;
-    }
-    .projects-box{
-        width: 450px;
-        margin: 30px auto;
-        padding-bottom: 20px;
-    }
-    .project-image{
-        width: 440px;
-    }
-}
-
-@media screen and (max-width:600px) {
-    .project-header{
-        font-size: 20px;
-    }
-    .project-container{
-        padding-bottom: 0px;
-    }
-}
-
-@media screen and (max-width:500px) {
-    .projects-box{
-        width: 350px;
-        margin: 30px auto;
-        padding-bottom: 20px;
-    }
-    .project-image{
-        width: 340px;
-    }
-}
-
-@media screen and (max-width:400px) {
-    .project-container{
-        padding-top: 0px;
-    }
-    .projects-box{
-        width: 300px;
-        margin: 30px auto;
-        padding-bottom: 20px;
-    }
-    .project-image{
-        width: 290px;
-    }
-}
-
-@media screen and (max-width:350px) {
-    .project-container{
-        padding-top: 30px;
-    }
-    .projects-box{
-        width: 220px;
-        margin: 30px auto;
-        padding-bottom: 20px;
-    }
-    .project-image{
-        width: 210px;
-    }
-    .project-buttons button{
-        font-size: 12px;
-    }
 }

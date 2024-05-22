@@ -1,39 +1,37 @@
 .home-container{
     display: flex;
-    justify-content: space-around;
-    padding: 10px 80px;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    padding-bottom: 130px;
 }
 
 .home-left{
     text-align: center;
-    padding: 20px 70px;
-    padding-top: 10px;
     letter-spacing: 3px;
 }
 
 .home-left h1{
-    font-weight: 800px;
-    font-size: 50px;
+    font-weight: 800;
+    font-size: 45px;
     color: rgb(27,159,254); 
     transition: 0.4s ease-in-out;
     font-family: "Archivo Black";
     letter-spacing: 5px;
+    padding: 10px 0px;
 }
 
 .home-left p{
     color: #FFF;
     font-size: 30px;
     transition: 0.6s ease-in-out;
-    padding: 10px 0px;
-    font-family: "Archivo";
 }
 
 .home-left h1:hover{
-    font-size: 53px;
+    font-size: 47px;
 }
 
 .home-left p:hover, .home-skills-container span:hover{
-    font-size: 33px; 
+    font-size: 32px; 
 }
 
 .home-right-profile{
@@ -43,19 +41,17 @@
 }
 
 .home-right-profile:hover{
-    height: 510px;
+    height: 500px;
     width: auto;
 }
 
 .left-social-icons-container{
     display: flex;  
     justify-content: space-evenly; 
-    padding-bottom: 80px;
 }
 
 .left-social-icons-container li{
     list-style: none;
-    padding-top: 70px;
 }
 
 .left-social-icon{
@@ -63,25 +59,24 @@
     width: auto;
     transition: 0.4s ease-in-out;
     list-style: none;
-    padding-right: 50px;
 }
 
 .left-social-icon:hover{
-    height: 35px;
+    height: 33px;
     width: auto;
 }
 
 .left-buttons-container{
-    padding-top: 70px;
+    padding: 70px 0px; 
     display:flex;
     justify-content: space-around;
 }
 
 .left-button{
     font-size: 15px;
-    font-weight: 800px;
+    font-weight: 800;
     border-radius: 60px;
-    padding: 10px 30px;
+    padding: 10px 25px;
     border-color: transparent;
     background-color: #1B9FFE;
     border-style: solid;
@@ -118,222 +113,109 @@
     75% {top: -155px;}
 }
 
-@media screen and (max-width:1350px) {
-    .home-container{
-        display: flex;
-        justify-content: space-around;
-        padding: 125x 50px;
-    }
-    .home-left{
-        padding-top: 10px;
-    }
-    .home-right-profile{
-        height: 400px;
-        width: auto;
-        padding-top: 20px;
-    }
-    .home-right-profile:hover{
-        height:430px;
-        width:auto;
-    }
+@media screen and (max-width: 1050px){
     .home-left h1{
-        font-weight: 800px;
-        font-size: 30px; 
-        transition: 0.4s ease-in-out;
-    }
-    .home-left p, .home-skills-container span{
-        font-size: 25px;
-        transition: 0.4s ease-in-out;
-    }
-    .home-left h1:hover{
-        font-size: 40px;
-    }
-    .home-left p:hover{
-        font-size: 28px;
-        transition: 0.4s ease-in-out;
-    }
-    .left-social-icons-container li{
-        padding-top: 50px;
-    }
-}
-
-@media screen and (max-width:1100px) {
-    .home-container{
-        flex-direction: column-reverse;
-        padding-top: 0px;
-    }
-    .home-right-profile{
-        padding-top: 10px;
-        max-width: 100%;
-        height: auto;
-        padding: 0px 200px;
-    }
-    .home-right-profile:hover{
-        height: 100%;
-        width: auto;
-    }
-    .home-left h1{
-        font-weight: 800px;
-        font-size: 40px;
-        transition: 0.4s ease-in-out;
-    }
-    .home-left p, .home-skills-container span{
-        font-size: 25px;
-        transition: 0.4s ease-in-out;
-    }
-    .home-left h1:hover{
-        font-size: 45px;
-    }
-    .home-left p:hover{
-        font-size: 30px;
-        transition: 0.4s ease-in-out;
-    }
-}
-
-@media screen and (max-width:800px) {
-    .home-container{
-        display: flex;
-        flex-direction: column-reverse;
-        padding: 0px 0px;
-    }
-    .home-right-profile{
-        max-width: 100%;
-        height: auto;
-        padding: 0px 120px;
-    }
-    .home-left{
-        text-align: center;
-        font-family: "Roboto";
-        padding: 0px 20px;
-        letter-spacing: 3px;
-        padding-top: 20px;
-    }
-    .home-left h1{
-        font-weight: 800px;
         font-size: 35px;
-        transition: 0.4s ease-in-out;
-        letter-spacing: 3px;
+        padding: 0px;
+    }   
+    .home-left h1:hover{
+        font-size: 37px;
     }
     .home-left p, .home-skills-container span{
         font-size: 25px;
-        transition: 0.4s ease-in-out;
-        font-family: "Roboto";
+    } 
+    .home-left p:hover, .home-skills-container span:hover{
+        font-size: 27px;
     }
-    .home-left h1:hover{
-        font-size: 40px;
+    .home-right-profile{
+        height: 350px;
     }
-    .home-left p:hover{
-        font-size: 30px;
-        transition: 0.4s ease-in-out;
+    .home-right-profile:hover{
+        height: 370px;
+    }
+    .left-buttons-container{
+        padding: 50px 0px;
+    }
+    .left-social-icon{
+        height: 25px;
     }
     .left-button{
-        font-size: 13px;
-        font-weight: 800px;
-        border-radius: 60px;
-        padding: 10px 30px;
-        transition: 0.8s ease-in-out;
-    }
-    .left-button:hover{
-        border-color: transparent;
-        background-color: #1B9FFE;
-        color: rgb(21,23,32);
+        font-size: 12px;
     }
 }
 
-@media screen and (max-width:425px) {
-    .home-right-profile{
-        max-width: 100%;
-        height: auto;
-        padding: 0px 50px;
-    }
-    .home-left h1{
-        font-family: "Roboto";
-        font-size: 25px; 
-        font-weight: 900px;
-        transition: 0.4s ease-in-out;
-        letter-spacing: 3px;
+@media screen and (max-width: 800px){
+    .home-container{
+        padding-top: 0px;
+        padding-bottom: 50px;
     }
     .home-left h1:hover{
-        font-weight: 800px;
+        font-size: 35px;
+    }
+    .home-left p:hover, .home-skills-container span:hover{
         font-size: 25px;
-        transition: 0.4s ease-in-out;
-        letter-spacing: 3px;
     }
-    .home-left p, .home-skills-container span{
-        font-size: 20px;
-        transition: 0.4s ease-in-out;
-    }
-    .home-left p:hover{
-        font-size: 20px;
-        transition: 0.4s ease-in-out;
-    }
-    .left-button{
-        font-size: 10px;
-        font-weight: 800px;
-        border-radius: 60px;
-        padding: 10px 30px;
-    }
-    .left-social-icon {
-        height: 25px;
-        width: auto;
-        transition: 0.6s ease-in-out;
-        list-style: none;
-        padding-right: 50px;
-    }
-    .left-buttons-container button{
-        font-size: 12px;
-        padding: 10px 20px;
-    }
-    .left-social-icons-container{
+    .home-container{
+        flex-direction: column-reverse;
         justify-content: center;
     }
+    .home-right-profile{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .home-right-profile:hover{
+        height: 350px;
+    }
+    .left-social-icon{
+        height: 25px;
+    }
+    .left-social-icon:hover{
+        height: 25px;
+    }
+    .left-buttons-container{
+        justify-content: space-evenly;
+    }
+    .left-social-icons-container{
+        padding: 0% 10%;
+        padding-top: 5%;
+        justify-content: space-evenly;
+    }
 }
 
-@media screen and (max-width: 350px) {
-    .home-right-profile{
-        max-width: 100%;
-        height: auto;
-        padding: 0px 40px;
-    }
+@media screen and (max-width: 450px){
     .home-left h1{
-        font-weight: 800px;
-        font-size: 20px; 
-        transition: 0.4s ease-in-out;
-        letter-spacing: 0px;
+        font-size: 25px;
+        letter-spacing: 3px;
+        padding: 5px 0px;
     }
     .home-left h1:hover{
-        font-weight: 800px;
-        font-size: 20px; 
-        transition: 0.4s ease-in-out;
-        letter-spacing: 3px;
+        font-size: 25px;
     }
     .home-left p, .home-skills-container span{
-        font-size: 15px;
-        transition: 0.4s ease-in-out;
+        letter-spacing: 2px;
+        font-size: 20px;
     }
-    .home-left p:hover{
-        font-size: 15px;
-        transition: 0.4s ease-in-out;
+    .home-left p:hover, .home-skills-container span:hover{
+        font-size: 20px;
+    }
+    .home-right-profile{
+        height: 250px;
+    }
+    .home-right-profile:hover{
+        height: 250px;
     }
     .left-button{
         font-size: 10px;
-        font-weight: 800px;
-        border-radius: 60px;
-        padding: 10px 10px;
+        padding: 7px 15px;
     }
-    .left-social-icon {
+    .left-social-icons-container{
+        padding: 0% 0%;
+    }
+    .left-social-icon{
         height: 20px;
-        width: auto;
-        transition: 0.6s ease-in-out;
-        list-style: none;
-        padding-right: 35px;
     }
     .left-social-icon:hover{
         height: 20px;
-        width: auto;
-    }
-    .left-buttons-container button{
-        font-size: 10px;
-        padding: 10px 15px;
     }
 }

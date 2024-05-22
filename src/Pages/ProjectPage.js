@@ -3,8 +3,8 @@ import '../Styles/ProjectPage.css';
 
 export default function ProjectPage() {
     return (
-        <div className = "project-container">
-            <h1 className = "project-header" id = "page-4">PROJECTS</h1>
+        <div className = "page-container">
+            <h1 className = "page-header" id = "page-4">PROJECTS</h1>
             
             <div className = "projects-container-block">
                 <div className = "projects-flex-container">

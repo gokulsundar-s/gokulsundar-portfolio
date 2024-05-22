@@ -1,0 +1,29 @@
+.skills-box-container{
+    background-color: #FFF;
+    border-radius: 1rem;
+    margin: 0 5%;
+    box-shadow: 0px 0px 15px #00000020;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+}
+
+.programming-progress-container{
+    padding: 0.4% 7%;
+}
+
+.programming-progress-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.programming-progress-outer{
+    display: flex;
+    border-radius: 30px;
+    background-color: #d6d6d6;
+    width: 100%;
+    height: 0.3rem;
+}
+
+.programming-name{
+    letter-spacing: 0.05rem;
+}
