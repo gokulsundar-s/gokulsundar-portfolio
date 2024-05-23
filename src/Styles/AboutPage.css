@@ -17,7 +17,6 @@
 
 .about-left-header{
     font-size: 1.2rem;
-    color: #000000;
     padding: 2.5rem 0 1.5rem 0;
 }
 
@@ -25,7 +24,9 @@
     font-size: 1.2rem;
     line-height: 220%;
     padding-left: 8%;
-    padding-right: 2%
+    padding-right: 2%;
+    text-align: justify;
+    text-align-last: center;
 }
 
 @media screen and (max-width: 1050px){
@@ -34,8 +35,8 @@
     }
     .about-left-content{
         line-height: 200%;
-        font-size: 1.1rem;
-        padding-left: 2%;
+        padding-left: 3%;
+        padding-right: 3%;
     }
     .about-left-header{
         padding: 0;
@@ -48,24 +49,20 @@
     }
     .about-right-profile{
         height: auto;
-        width: 100%;
+        width: 50%;
         border-radius: 0.8rem 0.8rem 0 0;
     }
     .about-left-content{
         line-height: 180%;
-        font-size: 1rem;
+        font-size: 1.1em;
     }
     .about-left-header{
-        font-size: 1rem;
+        font-size: 1.1rem;
     } 
 }
 
 @media screen and (max-width: 400px){
-    .about-left-content{
-        line-height: 180%;
-        font-size: 0.8rem;
+    .about-right-profile{
+        width: 100%;
     }
-    .about-left-header{
-        font-size: 0.8rem;
-    } 
 }

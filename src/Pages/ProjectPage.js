@@ -1,72 +1,34 @@
 import React from "react";
-import '../Styles/ProjectPage.css';
+import Project1 from '../Components/Project1';
+import Project2 from '../Components/Project2';
+import Project3 from '../Components/Project3';
+import Project4 from '../Components/Project4';
+import Carousel from 'react-multi-carousel';
+import 'react-multi-carousel/lib/styles.css';
+import '../Styles/Projects.css';
 
 export default function ProjectPage() {
+    const responsive = {
+        desktop: {breakpoint: { max: 3000, min: 800 }, items: 1, slidesToSlide: 1},
+        tablet: {breakpoint: { max: 800, min: 464 }, items: 1, slidesToSlide: 1},
+        mobile: {breakpoint: { max: 464, min: 0 }, items: 1, slidesToSlide: 1}
+    };
+    
     return (
         <div className = "page-container">
             <h1 className = "page-header" id = "page-4">PROJECTS</h1>
             
-            <div className = "projects-container-block">
-                <div className = "projects-flex-container">
-                    <div className = "projects-box">
-                        <img src = {require("../../src/Sources/kecpresence-project.png")} alt = "project" className = "project-image"/>
-                        <p className = "project-name">KEC Presence</p>
-                        <p className = "project-content">KEC Presence is a cutting-edge project developed using the MERN stack, designed to redefine and enhance user engagement in the digital space.</p>
-                        <div className = "project-buttons">
-                            <div>
-                                <a href = "https://github.com/gokulsundar-s/KEC-presence" target = "_blank" rel="noreferrer"><button>View code</button></a>
-                            </div>
-                            {/* <div>
-                                <button>Live demo</button>
-                            </div> */}
-                        </div>
-                    </div>
-                        
-                    <div className = "projects-box">
-                        <img src = {require("../../src/Sources/restaurant-project.png")} alt = "project" className = "project-image"/>
-                        <p className = "project-name">Turban Tudka - Restaurant website</p>
-                        <p className = "project-content">Turban Tudka, a gastronomic website, was developed with the cutting-edge MERN stack to provide a good online experience for our patrons.</p>
-                        <div className = "project-buttons">
-                            <div>
-                                <a href = "https://github.com/gokulsundar-s/Turban-Tudka-Restaurant-website" target = "_blank" rel="noreferrer"><button>View code</button></a>
-                            </div>
-                            {/* <div>
-                                <button>Live demo</button>
-                            </div> */}
-                        </div>
-                    </div>
-                </div>
-
-                <div className = "projects-flex-container">
-                    <div className = "projects-box">
-                        <img src = {require("../../src/Sources/events-project.png")} alt = "project" className = "project-image"/>
-                        <p className = "project-name">CodeUp - Registration website</p>
-                        <p className = "project-content">CodeUp is an event registration website using HTML, CSS, and NodeJS is a dynamic platform designed to process participant registration.</p>
-                        <div className = "project-buttons">
-                            <div>
-                                <a href = "https://github.com/gokulsundar-s/CodeUp-event-registration-website" target = "_blank" rel="noreferrer"><button>View code</button></a>
-                            </div>
-                            {/* <div>
-                                <button>Live demo</button>
-                            </div> */}
-                        </div>
-                    </div>
-                        
-                    <div className = "projects-box">
-                        <img src = {require("../../src/Sources/attendance-project.png")} alt = "project" className = "project-image"/>
-                        <p className = "project-name">Student attendance system</p>
-                        <p className = "project-content">Student Attendance Management System is a Java application designed to track and manage student attendance efficiently.</p>
-                        <div className = "project-buttons">
-                            <div>
-                                <a href = "https://github.com/gokulsundar-s/student-attendanve-management-system-Java" target = "_blank" rel="noreferrer"><button>View code</button></a>
-                            </div>
-                            {/* <div>
-                                <button>Live demo</button>
-                            </div> */}
-                        </div>
-                    </div>
+            <div className = "projects-box-container">
+                <Carousel swipeable={true} draggable={true} showDots={false} responsive={responsive}
+                    ssr={true} infinite={true} autoPlaySpeed={1000} keyBoardControl={true}
+                    customTransition="all .5" transitionDuration={500} containerClass="carousel-container"
+                    removeArrowOnDeviceType={["tablet", "mobile"]} dotListClass="custom-dot-list-style" itemClass="carousel-item-padding-40-px">
                     
-                </div>
+                    <div><Project1/></div>
+                    <div><Project2/></div>
+                    <div><Project3/></div>
+                    <div><Project4/></div>
+                </Carousel>
             </div>
         </div>
     )

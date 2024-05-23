@@ -16,7 +16,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 30%;
+    width: 7rem;
 }
 
 .education-content-year{
@@ -26,18 +26,35 @@
 }
 
 .education-content-header{
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: bold;
     letter-spacing: 0.05rem;
     color: #1B9FFE;
     padding-top: 1rem;
     text-align: center;
+    line-height: 2rem;
 }
 
 .education-content{
-    font-size: 1rem;
+    font-size: 1.2rem;
     letter-spacing: 0.03rem;
-    padding: 5% 0;
+    padding: 3% 0;
     text-align: center;
+    line-height: 2rem;
 }
 
+@media screen and (max-width: 800px){
+    .education-content-header{
+        font-size: 1.1rem;
+    }
+    .education-content{
+        font-size: 1rem;
+    }
+    .education-box-container{
+        flex-direction: column;
+    }
+    .education-box{
+        width: 94%;
+        margin: 5% 1%;
+    }
+}
