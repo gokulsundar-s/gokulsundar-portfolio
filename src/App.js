@@ -3,10 +3,10 @@ import { PuffLoader } from "react-spinners";
 import HomePage from './Pages/HomePage';
 import AboutPage from './Pages/AboutPage';
 import EducationPage from './Pages/EducationPage';
-// import SkillsPage from './Pages/SkillsPage';
+import SkillsPage from './Pages/SkillsPage';
 import ProjectPage from './Pages/ProjectPage';
 // import ContactPage from './Pages/ContactPage';
-// import FooterPage from './Pages/FooterPage';
+import FooterPage from './Pages/FooterPage';
 import './App.css';
 
 export default function App() {
@@ -22,10 +22,10 @@ export default function App() {
           <HomePage />
           <AboutPage />
           <EducationPage />
-          {/* <SkillsPage /> */}
+          <SkillsPage />
           <ProjectPage />
           {/* <ContactPage /> */}
-          {/* <FooterPage /> */}
+          <FooterPage />
         </>
         )}
       </>

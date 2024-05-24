@@ -3,9 +3,10 @@ import Project1 from '../Components/Project1';
 import Project2 from '../Components/Project2';
 import Project3 from '../Components/Project3';
 import Project4 from '../Components/Project4';
+import Project5 from '../Components/Project5';
+import Project6 from '../Components/Project6';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import '../Styles/Projects.css';
 
 export default function ProjectPage() {
     const responsive = {
@@ -28,6 +29,8 @@ export default function ProjectPage() {
                     <div><Project2/></div>
                     <div><Project3/></div>
                     <div><Project4/></div>
+                    <div><Project5/></div>
+                    <div><Project6/></div>
                 </Carousel>
             </div>
         </div>

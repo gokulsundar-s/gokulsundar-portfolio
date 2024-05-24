@@ -1,124 +1,70 @@
 .footer-header{
-    font-family: "Roboto";
-    font-size: 30px;
-    font-weight: 900;
+    font-size: 2rem;
     color: #1B9FFE;
     text-align: center;
-    padding-top: 80px;
-    letter-spacing: 8px;
-}
-
-.footer-social-icons-container img{
-    height: 30px;
-    width: auto;
-    list-style: none;
-    padding-right: 50px;
-}
-
-.footer-social-icons-container img:hover{
-    height: 30px;
-}
-
-.footer-social-icons-container li{
-    list-style: none;
-    padding-top: 40px;
+    padding-top: 5rem;
+    letter-spacing: 0.5rem;
 }
 
 .footer-social-icons-container{
     display: flex;  
-    justify-content: center;  
+    justify-content: space-around; 
+    padding: 0 35%; 
+}
+
+.footer-social-icons-container li{
+    list-style: none;
+    padding: 2.5rem 0;
+}
+
+.footer-social-icons-container img{
+    height: 1.5rem;
+    width: auto;
 }
 
 .footer-contact-info{
-    font-family: "Roboto";
-    font-size: 20px;
-    font-weight: 500px;
+    font-size: 1.2rem;
     color:#1B9FFE;
     text-align: center;
-    letter-spacing: 2px;
-}
-
-.footer-phone-number{
-    padding-top: 30px;
+    letter-spacing: 0.1rem;
 }
 
 .footer-copyrights-container{
-    display: flex;
-    justify-content: center;
-    font-size: 15px;
-    font-family: "Roboto";
-    color: #1B9FFE;
-    letter-spacing: 2px;
+    font-size: 0.8rem;
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 50px;
+    color: #1B9FFE;
+    letter-spacing: 0.03rem;
+    padding: 2rem 0;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 800px){
     .footer-header{
-        font-family: "Roboto";
-        font-size: 18px;
-        font-weight: 900;
-        text-align: center;
-        padding-top: 50px;
-        letter-spacing: 8px;
+        font-size: 1.3rem;
     }
-    .footer-social-icons-container img{
-        height: 20px;
-        width: auto;
-        list-style: none;
-        display: flex;
-    }
-    .footer-social-icons-container img:hover{
-        height: 20px;
-    }
-    .footer-social-icons-container li{
-        list-style: none;
-        padding-top: 30px;
+    .footer-contact-info{
+        font-size: 1.1rem;
     }
     .footer-social-icons-container{
-        display: flex;  
-        justify-content: center;  
-    }
-    .footer-contact-info{
-        font-family: "Roboto";
-        font-size: 13px;
-        font-weight: 500px;
-        text-align: center;
-        letter-spacing: 2px;
-    }
-    .footer-phone-number{
-        padding-top: 30px;
-    }
-    .footer-copyrights-container{
-        display: flex;
-        justify-content: center;
-        font-size:10px;
-        font-family: "Roboto";
-        letter-spacing: 2px;
-        text-align: center;
-        padding-bottom: 20px;
-        padding-top: 30px;
+        padding: 0 20%;
     }
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 400px){
     .footer-header{
-        font-size: 13px;
-    }
-    .footer-social-icons-container img{
-        height: 13px;
-    }
-    .footer-social-icons-container img:hover{
-        height: 13px;
-    }
-    .footer-copyrights-container{
-        font-size: 8px;
+        font-size: 1.2rem;
     }
     .footer-contact-info{
-        font-size: 8px;
+        font-size: 0.8rem;
+    }
+    .footer-social-icons-container{
+        padding: 0 10%;
+    }
+    .footer-copyrights-container{
+        font-size: 0.7rem;
+        padding: 1rem 0;
     }
     .footer-social-icons-container img{
-        padding-right: 30px;
+        height: 1.2rem;
+        width: auto;
     }
 }
