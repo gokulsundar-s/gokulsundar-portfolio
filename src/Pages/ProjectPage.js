@@ -20,10 +20,10 @@ export default function ProjectPage() {
             <h1 className = "page-header" id = "page-4">PROJECTS</h1>
             
             <div className = "projects-box-container">
-                <Carousel swipeable={true} draggable={true} showDots={false} responsive={responsive}
+                <Carousel swipeable={true} draggable={true} showDots={true} responsive={responsive}
                     ssr={true} infinite={true} autoPlaySpeed={1000} keyBoardControl={true}
                     customTransition="all .5" transitionDuration={500} containerClass="carousel-container"
-                    removeArrowOnDeviceType={["tablet", "mobile"]} dotListClass="custom-dot-list-style" itemClass="carousel-item-padding-40-px">
+                    removeArrowOnDeviceType={["tablet", "mobile"]} dotListClass="custom-dot-list-style custom-dots" itemClass="carousel-item-padding-40-px">
                     
                     <div><Project1/></div>
                     <div><Project2/></div>
