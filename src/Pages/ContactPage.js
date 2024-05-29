@@ -6,7 +6,7 @@ import '../Styles/ContactPage.css';
 export default function ResumePage() {
   const [name, setName] = useState('');
   const [email, setEmail] = useState("");
-  const [message, setMessage] = useState("");
+  const [message, setMessage] = useState('');
 
   const handleNameChange = (event) => {
     setName(event.target.value);
@@ -15,61 +15,69 @@ export default function ResumePage() {
   const handleMailChange = (event) => {
     setEmail(event.target.value);
   };
-
+  
   const handleMessageChange = (event) => {
     setMessage(event.target.value);
   };
+  
+  const sendMail = (templateParams) => {
+    return emailjs.send('service_serorsq','template_3fay5kl',templateParams,"GU6Ljxpxou5RbCgWK");
+  };
 
   const handleSendMail = async () => {
-    toast.error("Please enter your name!!", { icon: '👦' });
-    
-    
     if (name === "") {
-      toast.error("Please enter your name!!");
+      toast.error("Please enter your name");
     } 
     else if (!email || (!email.includes('@') && !email.includes('.'))) {
-      toast('Here is your toast.')
+      toast.error("Please enter a valid email");
     } 
     else if (message === "") {
-      toast('Here is your toast.')
+      toast.error("Please give some message");
     } 
-    // else {
-        // const templateParams = { sender_name: name, sender_mail: email, message: message };
-    //     emailjs.send('service_serorsq','template_3fay5kl',templateParams,"GU6Ljxpxou5RbCgWK")
-    //     .then((response) => {toast('Here is your toast.')},
-    //     (error) => {toast('Here is your toast.')});
-    // }
+    else {
+      const templateParams = { sender_name: name, sender_mail: email, message: message };
+      toast.promise(
+        sendMail(templateParams),
+        {
+           loading: 'Sending...',
+           success: <b>Message sent</b>,
+           error: <b>Could not sent message</b>,
+         }
+       );
+    }
   };
 
   return (
-    <div className="contact-container">
-      <h1 className="contact-header" id="page-5">CONTACT ME</h1>
-
-      <div className="contact-container-block">
-        <p className="contact-block-header"><b>Let's get connected🤘</b></p>
-
-        <div className="inside-container">
-          <img src={require("../../src/Sources/hello.png")} alt="hello" className="contact-container-image"></img>
-
+    <div className="page-container">
+      <h1 className="page-header" id="page-6">CONTACT ME</h1>
+      <div className = "contact-box-container">
+        <img src={require("../../src/Sources/contact.jpg")} alt="Hello" className = "contact-right-profile"></img>
+      
+        <div className = "contact-left-container">
+          <p className = "contact-left-header"><b>LET'S GET CONNECTED!🚀</b></p>
           <form className="contact-form" onSubmit={(event) => event.preventDefault()}>
-            <div>
-              <p className="contact-input-header">Name</p>
+            <>
+              <p>Name</p>
               <input type="text" placeholder="Name" value={name} onChange={(event) => handleNameChange(event)} />
-            </div>
-            <div>
-              <p className="contact-input-header">Email</p>
+            </>
+            
+            <>
+              <p>Email</p>
               <input type="mail" placeholder="Email" value={email} onChange={(event) => handleMailChange(event)} />
-            </div>
-            <div>
-              <p className="contact-input-header">Message</p>
+            </>
+            
+            <>
+              <p>Message</p>
               <textarea type="text" placeholder="Message" value={message} onChange={(event) => handleMessageChange(event)} />
-            </div>
-            <div className="contact-container-button">
+            </>
+            <div>
               <button onClick={handleSendMail}><b>SEND</b></button>
             </div>
           </form>
+
         </div>
       </div>
+      <Toaster toastOptions={{duration: 5000}}/>
     </div>
   );
 };

@@ -17,7 +17,7 @@ export default function ProjectPage() {
     
     return (
         <div className = "page-container">
-            <h1 className = "page-header" id = "page-4">PROJECTS</h1>
+            <h1 className = "page-header" id = "page-5">PROJECTS</h1>
             
             <div className = "projects-box-container">
                 <Carousel swipeable={true} draggable={true} showDots={true} responsive={responsive}

@@ -6,7 +6,7 @@ export default function AboutPage() {
         <div className = "page-container">
             <h1 className = "page-header" id = "page-2">ABOUT ME</h1>
             
-            <div className = "about-box-conatiner">
+            <div className = "about-box-container">
                 <img src={require("../../src/Sources/about-profile.png")} alt="About Profile" className = "about-right-profile"></img>
                 
                 <div className = "about-left-container">

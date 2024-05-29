@@ -4,9 +4,14 @@ body{
     font-family: "Archivo";
   }
   
-  .navbar-container, .footer-container{
+  .navbar-container{
     background-color: rgb(21,23,32);
     margin: 0px;
+  }
+
+  .footer-container{
+    background-color: rgb(21,23,32);
+    margin-top: 10rem;
   }
 
   .home-container{
@@ -26,11 +31,13 @@ body{
     color: #000000;
     text-align: center;
     justify-content: center;
+    padding-top: 5rem;
   }
 
   .page-header{
     letter-spacing: 0.15rem;
     color: #1B9FFE;
+    padding: 2rem;
   }
 
   .puffloader{
@@ -38,4 +45,10 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+  }
+
+  @media screen and (max-width: 400px){
+    .page-header{
+      font-size: 1.5rem;
+    }
   }
