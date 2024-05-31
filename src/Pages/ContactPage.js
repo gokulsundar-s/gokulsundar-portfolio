@@ -39,9 +39,9 @@ export default function ResumePage() {
       toast.promise(
         sendMail(templateParams),
         {
-           loading: 'Sending...',
-           success: <b>Message sent</b>,
-           error: <b>Could not sent message</b>,
+           loading: 'Sending',
+           success: 'Message sent',
+           error: 'Could not sent message',
          }
        );
     }
