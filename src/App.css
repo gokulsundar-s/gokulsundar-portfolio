@@ -31,13 +31,13 @@ body{
     color: #000000;
     text-align: center;
     justify-content: center;
-    padding-top: 5rem;
+    padding-top: 3rem;
   }
 
   .page-header{
     letter-spacing: 0.15rem;
     color: #1B9FFE;
-    padding: 2rem;
+    padding: 2rem 0;
   }
 
   .puffloader{
@@ -47,6 +47,11 @@ body{
     transform: translate(-50%, -50%);
   }
 
+  @media screen and (max-width: 800px){
+    .page-container{
+      padding-top: 0rem;
+    }
+  }
   @media screen and (max-width: 400px){
     .page-header{
       font-size: 1.5rem;
