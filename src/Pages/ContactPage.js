@@ -41,7 +41,7 @@ export default function ResumePage() {
         {
            loading: 'Sending',
            success: 'Message sent',
-           error: 'Could not sent message',
+           error: 'Could not send the message',
          }
        );
     }
