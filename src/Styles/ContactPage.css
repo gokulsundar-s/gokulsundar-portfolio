@@ -54,11 +54,11 @@
 
 .contact-form button{
     width: 25%;
-    padding: 0.8rem;
+    padding: 0.6rem;
     margin-top: 1.5rem;
     border: 0.1rem solid #1B9FFE;
     box-sizing: border-box;
-    border-radius: 0.5rem;
+    border-radius: 60px;
     text-align: center;
     background-color: #1B9FFE;
     color: white;
